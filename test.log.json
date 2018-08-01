@@ -1,0 +1,85 @@
+[
+  [
+    "P",
+    {
+      "style": {
+        "backgroundColor": "#red",
+        "position": "relative",
+        "width": "456px"
+      },
+      "dataIndex": "456",
+      "customAttrName": "46t",
+      "checked": true,
+      "href": "1232 asdf ",
+      "alt": "hello"
+    },
+    [
+      [
+        "#comment",
+        {
+          "text": "asdf"
+        }
+      ],
+      "aaa   \n\rbbbb  \tcccc",
+      [
+        "br",
+        null
+      ],
+      "sdfsa",
+      [
+        "input",
+        {
+          "dataIndex": "123d",
+          "type": "text"
+        }
+      ],
+      [
+        "img",
+        {
+          "src": "imageurl",
+          "alt": "345"
+        }
+      ],
+      [
+        "a",
+        null,
+        [
+          "bbb",
+          [
+            "span",
+            null,
+            [
+              "111ccc",
+              [
+                "_CustomTagName",
+                null,
+                [
+                  "12312"
+                ]
+              ],
+              [
+                "script",
+                {
+                  "src": "asdfs.js"
+                }
+              ]
+            ]
+          ],
+          [
+            "div",
+            null,
+            [
+              [
+                "script",
+                null,
+                [
+                  "\n      var a = '123';\n      var arr = [];\n      arr.push('<a>12112</a>'); // test a tag\n    "
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
