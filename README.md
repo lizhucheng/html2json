@@ -70,13 +70,13 @@ attrMap @object or @function
 ```
 
 ```
-nocloseTags @array[string]
+selfClosingTags @array[string]
 describle which element is self closed(means which do not need a close tag).
 default value:  all self close element in html, example input, link and so on.
 ```
 
 ```
-customNoCloseTags @array[string]
+customSelfClosingTags @array[string]
 add custom self closed element.
 ```
 

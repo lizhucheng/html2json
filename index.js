@@ -49,7 +49,7 @@ const parseHtml = function (source, options) {
   const tagMap = opts.tagMap || defalutMap;
 
   // 自闭合标签，可自定义扩展元素 (tagName is case insensitive)
-  let nocloseTags = [].concat(opts.customNoCloseTags || [], opts.nocloseTags || Object.keys({
+  let selfClosingTags = [].concat(opts.customSelfClosingTags || [], opts.selfClosingTags || Object.keys({
     meta: true,
     link: true,
     base: true,
@@ -140,7 +140,7 @@ const parseHtml = function (source, options) {
       currentOpenedNode[2] = currentOpenedNode[2] || [];
       currentOpenedNode[2].push(newNode);
 
-      if (nocloseTags.indexOf(originalTagName.toLowerCase()) === -1) {
+      if (selfClosingTags.indexOf(originalTagName.toLowerCase()) === -1) {
         stack.push(currentOpenedNode);
         currentOpenedNode = newNode;
       }
